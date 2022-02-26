@@ -6,15 +6,16 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Ease Osteopathy and Health</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <img src="/ease-logo.svg" alt="Ease logo"></img>
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Ease Osteopathy and Health's website is in progress.
         </p>
+        <a className="button" href="https://easehealth.janeapp.com/#staff_member/1" target="_blank">Book an appointment</a>
       </main>
 
       <Footer />
